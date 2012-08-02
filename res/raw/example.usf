@@ -1,0 +1,144 @@
+<USFSubtitles version="1.0">
+	<metadata>
+		<title>The Core Media Player subtitle format sample</title>
+		<author>
+			<name>[Toff]</name>
+			<email>christophe.paris@free.fr</email>
+			<url>http://christophe.paris.free.fr</url>
+		</author>
+		<language code="eng">English</language>
+		<date>2002-08-15</date>
+		<comment>This sample show you available features in The Core Media Player subtitle format</comment>
+	</metadata>
+	<styles>
+		<style name="Default">
+			<fontstyle color="#EEEEFF" face="Arial" outline-color="#5555FF" size="24" family="Arial"></fontstyle>
+			<position alignment="BottomCenter" relative-to="Window" vertical-margin="10%"></position>
+		</style>
+		<style name="MusicLyrics">
+			<fontstyle back-color="#992299" bold="yes" color="#FFAAFF" outline-color="#CC55CC"></fontstyle>
+		</style>
+		<style name="NarratorSpeaking">
+			<fontstyle color="#FFEEEE" italic="yes" outline-color="#FF4444"></fontstyle>
+		</style>
+		<style name="AlignWindowTest">
+			<fontstyle size="-4"></fontstyle>
+			<position relative-to="Window" vertical-margin="0"></position>
+		</style>
+		<style name="AlignVideoTest">
+			<fontstyle size="-4"></fontstyle>
+			<position relative-to="Video" vertical-margin="0"></position>
+		</style>
+	</styles>
+	<subtitles>
+		<language code=""/>
+		<languageext code=""/>
+		<subtitle start="00:00:00.000" stop="00:00:05.000">
+			<text alignment="MiddleCenter" effect="ZoomOut"><font shadow-level="4">Welcome to <b>The Core Media Player</b></font></text>
+			<image alignment="TopRight" colorkey="#ffffff" horizontal-margin="20" vertical-margin="20">core_na.bmp</image>
+			<image alignment="TopLeft" colorkey="#ffffff" horizontal-margin="20" vertical-margin="20">core_na_fb.bmp</image>
+		</subtitle>
+		<subtitle start="00:00:06.100" stop="00:00:11.000">
+			<text style="NarratorSpeaking">This is a demo of<br></br>The Core Media Player<br></br>subtitle format</text>
+		</subtitle>
+		<subtitle start="00:00:11.000" stop="00:00:15.000">
+			<text style="NarratorSpeaking">What can be done ?</text>
+		</subtitle>
+		<subtitle start="00:00:15.500" stop="00:00:17.000">
+			<text alignment="TopLeft" style="AlignWindowTest">TopLeft</text>
+			<text alignment="TopCenter" style="AlignWindowTest">TopCenter</text>
+			<text alignment="TopRight" style="AlignWindowTest">TopRight</text>
+			<text alignment="MiddleLeft" style="AlignWindowTest">MiddleLeft</text>
+			<text alignment="MiddleCenter" style="AlignWindowTest">MiddleCenter</text>
+			<text alignment="MiddleRight" style="AlignWindowTest">MiddleRight</text>
+			<text alignment="BottomLeft" style="AlignWindowTest">BottomLeft</text>
+			<text alignment="BottomCenter" style="AlignWindowTest">BottomCenter</text>
+			<text alignment="BottomRight" style="AlignWindowTest">BottomRight</text>
+		</subtitle>
+		<subtitle start="00:00:17.500" stop="00:00:20.000">
+			<text alignment="TopLeft" style="AlignVideoTest">TopLeft</text>
+			<text alignment="TopCenter" style="AlignVideoTest">TopCenter</text>
+			<text alignment="TopRight" style="AlignVideoTest">TopRight</text>
+			<text alignment="MiddleLeft" style="AlignVideoTest">MiddleLeft</text>
+			<text alignment="MiddleCenter" style="AlignVideoTest">MiddleCenter</text>
+			<text alignment="MiddleRight" style="AlignVideoTest">MiddleRight</text>
+			<text alignment="BottomLeft" style="AlignVideoTest">BottomLeft</text>
+			<text alignment="BottomCenter" style="AlignVideoTest">BottomCenter</text>
+			<text alignment="BottomRight" style="AlignVideoTest">BottomRight</text>
+		</subtitle>
+		<subtitle start="00:00:20.500" stop="00:00:22.000">
+			<text>Muti-colors text : <font color="#FF0000" outline-color="#7F0000">Red</font>,
+ <font color="#00FF00" outline-color="#007F00">Green</font>,
+ <font color="#0000FF" outline-color="#00007F">Blue</font>,<br></br>
+				<font color="#7FFF0000" outline-color="#7F7F0000">Translucide red</font>
+			</text>
+		</subtitle>
+		<subtitle start="00:00:23.000" stop="00:00:25.500">
+			<text style="NarratorSpeaking">And it can do a lot more...</text>
+		</subtitle>
+		<subtitle start="00:00:26.000" stop="00:00:30.000">
+			<text>Size : <font size="14">14</font>-<font size="16">16</font>-<font size="20">20</font>-<font size="26">26</font>-<font size="40">40</font>...</text>
+		</subtitle>
+		<subtitle start="00:00:31.000" stop="00:00:35.000">
+			<text>Line break :<br></br>- Line 1<br></br>- Line 2<br></br>- Line 3</text>
+		</subtitle>
+		<subtitle start="00:00:36.000" stop="00:00:40.000">
+			<text>Styles : <i>Italic</i>, <b>Bold</b>, <u>Underline</u></text>
+		</subtitle>
+		<subtitle start="00:00:38.000" stop="00:00:42.000">
+			<text alignment="TopCenter">Overlapped text</text>
+		</subtitle>
+		<subtitle start="00:00:41.000" stop="00:00:45.000">
+			<text>Fonts : <font face="Arial">Arial</font>, <font face="Courier">Courier</font>, <font face="Times New Roman">Times New Roman</font></text>
+		</subtitle>
+		<subtitle start="00:00:46.000" stop="00:00:50.000">
+			<text style="NarratorSpeaking">Let's sing a song !</text>
+		</subtitle>
+		<subtitle start="00:00:51.000" stop="00:00:54.000">
+			<karaoke style="MusicLyrics"><k t="500"></k>La ! La ! La ! <k t="2500"></k>The Core Media Player</karaoke>
+		</subtitle>
+		<subtitle start="00:00:55.000" stop="00:00:57.000">
+			<karaoke style="MusicLyrics"><k t="2000"></k>La ! La ! La ! ;-)</karaoke>
+		</subtitle>
+		<subtitle start="00:00:58.000" stop="00:01:01.000">
+			<karaoke style="MusicLyrics"><k t="500"></k><font color="#00AAFF">Multi-colors</font><k t="500"></k> and <k t="500"></k><font color="#00FFAA">Multi-lines</font><br></br><k t="1500"></k>Karaokeeeee!!!</karaoke>
+		</subtitle>
+		<subtitle start="00:01:02.000" stop="00:01:05.000">
+			<text alignment="MiddleCenter"><font size="26">The End</font></text>
+		</subtitle>
+		<subtitle start="00:01:06.000" stop="00:01:10.000">
+			<text effect="VerticalScrolling"><b>Credits :</b><br></br>The Core Media Player<br></br>Blah, Blah, Blah ...</text>
+		</subtitle>
+		<subtitle start="00:01:11.000" stop="00:01:30.000">
+			<text alignment="BottomCenter"><font size="12"><b>Copyright © 2002 - The Core Media Player</b></font></text>
+		</subtitle>
+		<subtitle start="00:01:31.000" stop="00:01:35.000">
+			<text alignment="TopCenter" style="NarratorSpeaking">Unicode is great :</text>
+			<text alignment="BottomCenter">
+				<font face="Bitstream Cyberbit" size="-2">
+ English : Why can't they just speak <b>English</b>?<br></br>
+ French : Pourquoi, tout simplement, ne parlent-ils pas <b>français</b>?<br></br>
+ Spanish : ¿Por qué no pueden simplemente hablar en <b>Español</b>?<br></br>
+ Dutch : Waarom spreken ze niet gewoon <b>Nederlands</b>?<br></br>
+ Japanese : なぜ、みんな<b>日本語</b>を話してくれないのか？</font></text>
+		</subtitle>
+		<subtitle start="00:01:36.000" stop="00:01:40.000">
+			<text alignment="TopCenter">
+				<font face="Bitstream Cyberbit" size="-2">
+ Russian : Почему же они не говорят <b>по-русски</b>?<br></br>
+ Chinese : 他們爲什麽不說中文（<b>台灣</b>）？<br></br>
+ Arabic : لماذا لا يتكلمون اللّغة <b>العربية</b> فحسب؟</font></text>
+			<text style="NarratorSpeaking">
+ from <i>The "anyone can be provincial!" page</i> :<br></br>
+ http://www.trigeminal.com/samples/provincial.html
+ </text>
+		</subtitle>
+		<subtitle start="00:01:41.000" stop="00:01:48.000">
+			<text>Arabic<br></br>
+ Without tag:<br></br>
+ لماذا لا يتكلمون اللّغة العربية فحسب؟<br></br>
+ With tag:<br></br>
+ لماذا لا يتكلمون اللّغة <font color="#FFEEEE" outline-color="#FF4444">العربية</font> فحسب؟</text>
+		</subtitle>
+	</subtitles>
+</USFSubtitles>
